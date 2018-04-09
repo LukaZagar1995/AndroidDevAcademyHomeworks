@@ -37,7 +37,6 @@ public class Task5 {
 
     private static int[] returnArray(int number)
     {
-       int[] array = new int[number];
-       return array;
+        return new int[number];
     }
 }
