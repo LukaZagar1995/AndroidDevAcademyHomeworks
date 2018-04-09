@@ -28,7 +28,5 @@ public class Task2 {
                 System.out.println("You didn't enter a whole number!\n");
             }
 
-
-
     }
 }
