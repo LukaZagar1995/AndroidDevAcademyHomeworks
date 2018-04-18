@@ -1,6 +1,8 @@
 package MainActivity;
 
 import Respositories.Author.AuthorRepository;
+import Respositories.Category.CategoryRepository;
+import Respositories.News.NewsRepository;
 
 import java.util.Scanner;
 
@@ -11,9 +13,8 @@ public class MainActivity {
     public static void main(String[]args)
     {
         Scanner input = new Scanner(System.in);
+        NewsRepository authorRepository = new NewsRepository(DATABASE);
 
-        AuthorRepository authorRepository = new AuthorRepository(DATABASE);
-        authorRepository.getAllAuthors();
-        authorRepository.deleteAuthor(input.nextLine());
+        authorRepository.searchNews("test");
     }
 }

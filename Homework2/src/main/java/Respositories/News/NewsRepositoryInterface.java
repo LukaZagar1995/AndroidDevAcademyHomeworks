@@ -3,9 +3,9 @@ package Respositories.News;
 public interface NewsRepositoryInterface {
 
     void createNews();
-    void updateNews();
-    void deleteNews();
-    void searchNews();
+    void updateNews(String newsID);
+    void deleteNews(String newsID);
+    void searchNews(String newsID);
     void getAllNews();
 
     String COLLECTION_NEWS = "news";
