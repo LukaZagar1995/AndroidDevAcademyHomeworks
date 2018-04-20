@@ -15,6 +15,6 @@ public class MainActivity {
         Scanner input = new Scanner(System.in);
         NewsRepository authorRepository = new NewsRepository(DATABASE);
 
-        authorRepository.searchNews("test");
+        authorRepository.orderByAuthor();
     }
 }

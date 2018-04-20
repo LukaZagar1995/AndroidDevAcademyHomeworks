@@ -6,6 +6,10 @@ public interface NewsRepositoryInterface {
     void updateNews(String newsID);
     void deleteNews(String newsID);
     void searchNews(String newsID);
+    void orderByDate();
+    void orderByAuthor();
+    void getByCategory(String categoryID);
+    void getByAuthor(String authorID);
     void getAllNews();
 
     String COLLECTION_NEWS = "news";
@@ -15,5 +19,8 @@ public interface NewsRepositoryInterface {
     String NEWS_ARTICLE = "article";
     String NEWS_AUTHOR_ID = "authorID";
     String NEWS_CATEGORIES = "categories";
+    String NEWS_DATE = "date";
+    String FIRESTORE_FORMAT =  "EEE MMM dd HH:mm:ss ZZZ yyyy";
+    String VIEW_FORMAT = "dd.MM.yyyy";
 
 }

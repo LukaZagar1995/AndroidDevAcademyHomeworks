@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
 
 public class AuthorRepository implements AuthorRepositoryInterface {
 
-    Firestore db;
+    private Firestore db;
 
     public AuthorRepository(Firestore db) {
         this.db = db;
@@ -95,7 +95,7 @@ public class AuthorRepository implements AuthorRepositoryInterface {
                         System.out.println("Wrong input!");
                         break;
             }
-
+            db.collection(COLLECTION_AUTHORS).document(authorID).set(author, SetOptions.merge());
         } else {
             System.out.println("Wrong author ID!");
         }

@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutionException;
 
 public class CategoryRepository implements CategoryRepositoryInterface {
 
-    Firestore db;
+    private Firestore db;
 
     public CategoryRepository(Firestore db) {
         this.db = db;
@@ -82,6 +82,7 @@ public class CategoryRepository implements CategoryRepositoryInterface {
                     break;
             }
 
+            db.collection(COLLECTION_CATEGORY).document(categoryID).set(category, SetOptions.merge());
         } else {
             System.out.println("Wrong category ID!");
         }

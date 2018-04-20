@@ -3,6 +3,7 @@ package Models;
 import com.google.cloud.firestore.annotation.PropertyName;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Date;
 import java.util.List;
 
 import static Respositories.News.NewsRepositoryInterface.*;
@@ -30,20 +31,34 @@ public class News {
     @PropertyName(NEWS_AUTHOR_ID)
     private String authorID;
 
+    @SerializedName(NEWS_DATE)
+    @PropertyName(NEWS_DATE)
+    private Date date;
+
     @SerializedName(NEWS_CATEGORIES)
     @PropertyName(NEWS_CATEGORIES)
     private List<String> categories;
 
+
     public News() {
     }
 
-    public News(String id, String title, String subtitle, String article, String authorID, List<String> categories) {
+    public News(String id, String title, String subtitle, String article, String authorID, Date date, List<String> categories) {
         this.id = id;
         this.title = title;
         this.subtitle = subtitle;
         this.article = article;
         this.authorID = authorID;
         this.categories = categories;
+        this.date = date;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public String getId() {
