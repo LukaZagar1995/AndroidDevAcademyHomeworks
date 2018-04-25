@@ -63,8 +63,7 @@
         android:layout_below="@id/edittext_newtask_importance"
         android:layout_centerHorizontal="true"
         android:text="@string/newtask_savetask"
-        android:textAllCaps="false"
-        android:onClick="saveTask"/>
+        android:textAllCaps="false" />
 
     <ScrollView
         android:layout_width="match_parent"
