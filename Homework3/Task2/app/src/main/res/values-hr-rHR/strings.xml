@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zadatak 2</string>
+    <string name="etFirstNumberText">Prvi broj</string>
+    <string name="etSecondNumberText">Drugi Broj</string>
+    <string name="btnAdditionText">+</string>
+    <string name="btnSubtractionText">-</string>
+    <string name="btnMultiplicationText">*</string>
+    <string name="btnDivisionText">/</string>
+    <string name="etFirstNumberException">Niste unjeli prvi broj!</string>
+    <string name="etSecondNumberException">Niste unjeli drugi broj!</string>
+    <string name="btnDivisionException">Ne možete dijeliti s 0!</string>
+</resources>

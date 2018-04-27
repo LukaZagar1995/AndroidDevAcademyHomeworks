@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="etFirstNumberText">First number</string>
+    <string name="etSecondNumberText">Second Number</string>
+    <string name="btnAdditionText">+</string>
+    <string name="btnSubtractionText">-</string>
+    <string name="btnMultiplicationText">*</string>
+    <string name="btnDivisionText">/</string>
+    <string name="etFirstNumberException">You did not input first number</string>
+    <string name="etSecondNumberException">You did not input second number</string>
+    <string name="btnDivisionException">You can not divide with 0</string>
+</resources>
