@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="tvHeightText">Enter your height in meters:</string>
+    <string name="tvWeightText">Enter your weight in kilograms:</string>
+    <string name="etHeightHintText">meters</string>
+    <string name="etWeightHintText">kilograms</string>
+</resources>

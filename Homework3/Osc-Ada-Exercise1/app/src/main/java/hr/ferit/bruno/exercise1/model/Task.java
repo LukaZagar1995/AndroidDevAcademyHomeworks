@@ -1,6 +1,8 @@
 package hr.ferit.bruno.exercise1.model;
 
-public class Task {
+import android.support.annotation.NonNull;
+
+public class Task implements Comparable{
 	private int mImportance;
 	private String mTitle;
 	private String mSummary;
@@ -37,7 +39,11 @@ public class Task {
 
 	@Override
 	public String toString() {
-		return mImportance +
-				"\n" + mTitle + '\n' + mSummary + '\n';
+		return mTitle.toUpperCase() + '\n' + mSummary + '\n';
+	}
+
+	@Override
+	public int compareTo(@NonNull Object o) {
+		return  Integer.compare(this.getImportance(), ((Task) o).getImportance());
 	}
 }

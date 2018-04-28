@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="editTextStyle">
+        <item name="android:textColor">@color/etTextColor</item>
+        <item name="android:textColorHint">@color/etTextHintColor</item>
+        <item name="android:background">@color/etBackground</item>
+
+    </style>
+
 </resources>

@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="etBackground">#9E71A8</color>
+    <color name="etTextColor">#2E0138</color>
+    <color name="etTextHintColor">#442E0138</color>
 </resources>

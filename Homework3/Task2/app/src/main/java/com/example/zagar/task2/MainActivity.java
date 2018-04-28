@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             firstNumber = Double.parseDouble(etFirstNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etFirstNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             secondNumber = Double.parseDouble(etSecondNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etSecondNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             firstNumber = Double.parseDouble(etFirstNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etFirstNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             secondNumber = Double.parseDouble(etSecondNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etSecondNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             firstNumber = Double.parseDouble(etFirstNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etFirstNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             secondNumber = Double.parseDouble(etSecondNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etSecondNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             firstNumber = Double.parseDouble(etFirstNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etFirstNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             secondNumber = Double.parseDouble(etSecondNumber.getText().toString());
         }
-        catch (Exception e)
+        catch (NumberFormatException e)
         {
             Toast.makeText(this, R.string.etSecondNumberException, Toast.LENGTH_LONG).show();
             return;
@@ -139,4 +139,19 @@ public class MainActivity extends AppCompatActivity {
         result = firstNumber / secondNumber;
         tvResult.setText(decimalFormat.format(result));
     }
+
+    /* In progress
+    private double parseStringToDouble(EditText editText, String error)
+    {
+        double number;
+
+        try{
+            number = Double.parseDouble(editText.getText().toString());
+        }
+        catch (NumberFormatException e){
+            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
+            return 1;
+        }
+        return number;
+    }*/
 }
