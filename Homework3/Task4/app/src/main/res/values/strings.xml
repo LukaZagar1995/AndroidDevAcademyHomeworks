@@ -4,4 +4,24 @@
     <string name="tvWeightText">Enter your weight in kilograms:</string>
     <string name="etHeightHintText">meters</string>
     <string name="etWeightHintText">kilograms</string>
+    <string name="btnCalculateText">Calculate</string>
+    <string name="warningWeightMessage">Weight can\'t be over 350 kg</string>
+    <string name="warningHeightMessage">Height can\'t be over 2.5 m</string>
+    <string name="anorexiaCategory3Message">Anorexia category 3</string>
+    <string name="anorexiaCategory2Message">Anorexia category 2</string>
+    <string name="anorexiaCategory1Message">Anorexia category 1</string>
+    <string name="normalMessage">Normal</string>
+    <string name="overweightMessage">Overweight</string>
+    <string name="obeseCategory1Message">Obese category 1</string>
+    <string name="obeseCategory2Message">Obese category 2</string>
+    <string name="obeseCategory3Message">Obese category 3</string>
+    <string name="normalWeightSummary">With a good balance of body fat and muscle mass, your blood pressure, cholesterol and blood sugar values are likely to remain at moderate levels. You would then seem to be well-protected against a heart attack, stroke or diabetes. This might be less so if your body fat is higher with a lower muscle mass, if you consume tobacco, other drugs or too much alcohol, lack physical activity or sleep, eat unhealthy food, or suffer from stress and other unhealthy life factors.</string>
+    <string name="overweightSummary">Your weight is at a somewhat elevated level; in our view, it may be less than optimal for your health. By classification of the WHO, you are \"overweight\". Your body fat mass seems to be a slightly above average. But health ought not be affected provided your blood pressure, cholesterol and blood sugar levels remain at moderate values. This could be more likely if you have a higher muscle mass and a lower amount of body fat.</string>
+    <string name="obeseCategory2Summary">Your weight is at a very high level; in our view, it can cause serious health problems. By classification of the WHO, you are "obese".</string>
+    <string name="obeseCategory3Summary">Your weight is at an extremely high level; in our view, it can cause serious health problems. By classification of the WHO, you are "obese".</string>
+    <string name="obeseCategory1Summary">Your weight is at a high level; in our view, it can contribute towards health problems. By classification of the WHO, you are \"obese\". Your body fat mass seems to be rather high. It may have raised your blood pressure and cholesterol levels, or affected the way your body handles blood sugar. Your doctor could tell you whether you are at risk for heart disease, stroke, or diabetes, or not.</string>
+    <string name="anorexiaCategory1Summary">Your weight is at a lower level; in our view, it may be less than optimal for your health. By classification of the WHO, you are \"underweight\". Your low body mass could be a health problem if you are getting insufficient amounts of vital substances such as protein, minerals, vitamins and essential fats. The function of many of the organs and your immune system would then be compromised. A low but stable weight may be fine, but an unintended weight loss could be a sign of poor health and should be medically examined.</string>
+    <string name="anorexiaCategory2Summary">Your weight is at a very low level; in our view, it may lead to serious health problems. By classification of the WHO, you are \"underweight\".</string>
+    <string name="anorexiaCategory3Summary">Your weight is at a very low level; in our view, it may lead to serious health problems. By classification of the WHO, you are \"underweight\".</string>
+    <string name="targetWeightText">Target weight:</string>
 </resources>

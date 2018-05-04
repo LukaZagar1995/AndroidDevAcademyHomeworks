@@ -71,6 +71,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:text="No tasks to show"/>
+            android:text="@string/tvShowTasksNoTasksText"/>
     </ScrollView>
 </RelativeLayout>

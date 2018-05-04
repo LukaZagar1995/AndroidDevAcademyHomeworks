@@ -7,5 +7,31 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="etStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/etTextColor</item>
+        <item name="android:textColorHint">@color/etTextHintColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorControlNormal">@color/etControlNormalColor</item>
+        <item name="colorControlActivated">@color/etControlActivatedColor</item>
+        <item name="colorControlHighlight">@color/etControlHighlightColor</item>
+    </style>
+    
+    <style name="tvInputDataStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tvInputDataColor</item>
+    </style>
+
+    <style name="tvResultStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/tvResultColor</item>
+    </style>
+
+    <style name="tvResultSummaryStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/tvResultSummaryColor</item>
+    </style>
+    
+    
 
 </resources>

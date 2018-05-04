@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="etTextColor">#7C0A02</color>
+    <color name="etTextHintColor">#447C0A02</color>
+    <color name="etControlNormalColor">#947C0A02</color>
+    <color name="etControlActivatedColor">#7C0A02</color>
+    <color name="etControlHighlightColor">#7C0A02</color>
+    <color name="tvInputDataColor">#0E4D92</color>
+    <color name="tvResultColor">#0E4D92</color>
+    <color name="tvResultSummaryColor">#57A0D3</color>
+    <color name="backgroundColor">#FFE4B5</color>
 </resources>

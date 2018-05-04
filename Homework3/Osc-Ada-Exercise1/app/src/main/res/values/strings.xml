@@ -7,4 +7,5 @@
     <string name="tvNewTaskSummaryMessage">Enter task summary:</string>
     <string name="etNewTaskTitleHint">Finish homework</string>
     <string name="tvNewTaskTitleMessage">Enter task title:</string>
+    <string name="tvShowTasksNoTasksText">No tasks to show</string>
 </resources>
